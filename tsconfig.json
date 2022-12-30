@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "useUnknownInCatchVariables": false,
+    "target": "es6",
+    "sourceMap": true,
+    "allowJs": false,
+    "outDir": "dist",
+    "lib": ["es7"],
+    "baseUrl": ".",
+    "paths": {
+      "@gregoris/common": ["./packages/common"],
+      "@gregoris/common/*": ["./packages/common/*"],
+      "@gregoris/core": ["./packages/core"],
+      "@gregoris/core/*": ["./packages/core/*"]
+    }
+  },
+  "include": ["packages/**/*", "microservices/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

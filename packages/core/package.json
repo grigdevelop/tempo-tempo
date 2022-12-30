@@ -1,0 +1,12 @@
+{
+  "name": "@gregoris/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "tslib": "2.4.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
